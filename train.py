@@ -9,7 +9,7 @@ import os
 
 def main():
     # Load
-    df = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
+    df = pd.read_csv('data/WA_Fn-UseC_-Telco-Customer-Churn.csv')
     
     # Clean
     df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce')

@@ -1,6 +1,6 @@
 # Telco Customer Churn Prediction
 
-**Applied ML Residency Portfolio Project**
+**Applied ML Residency Project**
 
 ## Results
 - ROC-AUC: 0.84

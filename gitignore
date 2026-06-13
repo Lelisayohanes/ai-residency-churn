@@ -1,0 +1,37 @@
+# Environment variables (secrets – not part of program)
+.env
+.env.*
+!.env.example
+
+# Virtual environment (not part of the program)
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings (personal)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
